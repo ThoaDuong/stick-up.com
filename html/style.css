@@ -1,0 +1,390 @@
+* {
+  font-family: Lato, arial, sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+.btn {
+  padding: 0.75rem 2rem;
+  text-transform: uppercase;
+  font-size: 14px;
+  -webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 5px 5px rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.shadow-title {
+  font-size: 2rem;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+  font-weight: bold;
+  padding: 2.6rem;
+}
+
+.center-title {
+  font-size: 1.6rem;
+  padding: 2rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.header-block {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 0.75rem;
+  position: fixed;
+  z-index: 99;
+}
+
+.header-block .header-block-image {
+  width: 12%;
+}
+
+.header-block .header-block-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.header-block .header-block-image img:hover {
+  cursor: pointer;
+}
+
+.header-block .header-block-nav ul li {
+  float: left;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0 1rem;
+}
+
+.header-block .header-block-nav ul li:hover {
+  cursor: pointer;
+  color: #f18f17;
+}
+
+.header-block .header-block-icon ul li {
+  float: left;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0 1rem;
+}
+
+.header-block .header-block-icon ul .li-phone {
+  border-right: 1px solid #fff;
+}
+
+.header-block .header-block-icon ul .li-phone:hover {
+  cursor: pointer;
+  color: #f18f17;
+}
+
+.header-block .header-block-icon ul .last-li {
+  margin-right: 2rem;
+}
+
+.header-block .header-block-icon ul .li-icon {
+  color: #f18f17;
+}
+
+.header-block .header-block-icon ul .li-icon:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
+.information-block {
+  width: 100%;
+}
+
+.information-block .information-block-first {
+  width: 100%;
+  position: relative;
+  background-color: #78c9e0;
+}
+
+.information-block .information-block-first .info-first-image {
+  text-align: center;
+  width: 100%;
+}
+
+.information-block .information-block-first .info-first-image img {
+  width: 70%;
+}
+
+.information-block .information-block-first .info-first-fix {
+  position: absolute;
+  background-color: #f18f17;
+  padding: 4rem;
+  border-radius: 50%;
+  right: 10%;
+  bottom: -10%;
+  text-align: center;
+  z-index: 2;
+  -webkit-box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.information-block .information-block-first .info-first-fix .info-first-fix-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  text-shadow: 3px 3px rgba(255, 255, 255, 0.3);
+}
+
+.information-block .information-block-first .info-first-fix .info-first-fix-button {
+  margin-top: 2rem;
+}
+
+.information-block .information-block-first .info-first-fix .info-first-fix-button button {
+  background-color: #000;
+  color: #fff;
+}
+
+.information-block .information-block-first .info-first-fix .info-first-fix-button button:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.information-block .information-block-second {
+  text-align: center;
+  background-color: #f18f17;
+}
+
+.information-block .information-block-second .info-second-image {
+  width: 100%;
+}
+
+.information-block .information-block-second .info-second-image img {
+  width: 25%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.information-block .information-block-second .info-second-content {
+  font-size: 1rem;
+  padding: 0.9rem;
+}
+
+.information-block .information-block-second .info-second-view {
+  font-size: 1.4rem;
+  padding: 1rem 0 4rem 0;
+}
+
+.information-block .information-block-second .info-second-view a {
+  text-decoration: none;
+  color: #000;
+}
+
+.information-block .information-block-third {
+  background-color: #000;
+  color: #fff;
+}
+
+.information-block .information-block-third .info-third-content {
+  font-size: 0.9rem;
+  width: 60%;
+  margin: 0 auto;
+  padding: 0.5rem;
+}
+
+.information-block .information-block-third .info-third-content p {
+  padding: 0.75rem;
+}
+
+.signup-block {
+  background-color: #f18f17;
+  padding: 5rem;
+  text-align: center;
+}
+
+.signup-block .signup-block-form .title {
+  font-size: 1.6rem;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.signup-block .signup-block-form .txt-email {
+  width: 50%;
+  height: 40px;
+  border: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #000;
+  padding: 1rem;
+  outline: none;
+}
+
+.signup-block .signup-block-form .btn-signup {
+  background-color: #000;
+  color: #fff;
+  margin: 1rem;
+}
+
+.signup-block .signup-block-form .btn-signup:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.signup-block .signup-block-content {
+  font-size: 1rem;
+  margin-top: 0.6rem;
+}
+
+.sticker-block {
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+}
+
+.sticker-block .sticker-block-stick {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sticker-block .sticker-block-stick .stick {
+  width: 25%;
+  text-align: center;
+}
+
+.sticker-block .sticker-block-stick .stick .stick-title {
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+
+.sticker-block .sticker-block-stick .stick .stick-image {
+  width: 80%;
+}
+
+.sticker-block .sticker-block-stick .stick .stick-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.sticker-block .sticker-block-stick .stick .stick-content {
+  font-size: 0.9rem;
+  color: #cfcfcf;
+  padding: 2rem;
+}
+
+.contact-block {
+  width: 100%;
+  text-align: center;
+  background-color: #f18f17;
+}
+
+.contact-block .contact-block-form {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.contact-block .contact-block-form input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: rgba(75, 73, 73, 0.2);
+  color: #000;
+  padding: 1rem;
+  margin: 1rem 0;
+  outline: none;
+}
+
+.contact-block .contact-block-form textarea {
+  width: 100%;
+  border: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: rgba(75, 73, 73, 0.2);
+  color: #000;
+  margin: 1rem 0;
+  padding: 1rem;
+  outline: none;
+}
+
+.contact-block .contact-block-form .btn-send {
+  background-color: #000;
+  color: #fff;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px 25px;
+}
+
+.contact-block .contact-block-content p {
+  padding: 1rem;
+}
+
+.footer-block {
+  width: 100%;
+}
+
+.footer-block .footer-block-icon {
+  width: 100%;
+  text-align: center;
+  padding: 2rem;
+  background-color: #000;
+  display: inline-block;
+}
+
+.footer-block .footer-block-icon .block-icon-wapper {
+  display: inline-block;
+}
+
+.footer-block .footer-block-icon .block-icon-wapper a {
+  float: left;
+  padding: 0.8rem 1rem;
+  margin: 2rem;
+  list-style-type: none;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #f18f17;
+  border-radius: 50%;
+  color: #000;
+}
+
+.footer-block .footer-block-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding: 2rem 5rem;
+  background-color: #f18f17;
+}
+
+.footer-block .footer-block-content .block-content-left {
+  width: 50%;
+  text-align: left;
+}
+
+.footer-block .footer-block-content .block-content-right {
+  width: 50%;
+  text-align: right;
+}
+/*# sourceMappingURL=style.css.map */
